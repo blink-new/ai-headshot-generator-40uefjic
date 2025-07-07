@@ -90,7 +90,7 @@ function App() {
       const { data } = await blink.ai.modifyImage({
         images: [publicUrl],
         prompt: `Generate a professional business headshot for this person. ${styleDetails?.description}. Use professional studio lighting, formal business attire, neutral background. High quality, sharp focus, professional photography style. Make the person look confident and approachable.`,
-        quality: 'hd',
+        quality: 'high',
         n: 4
       })
 
